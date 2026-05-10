@@ -1,0 +1,100 @@
+<!-- projects.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Projects</title>
+
+    <!-- Existing CSS -->
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- Boxicons -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+
+<body>
+     <!-- Navigation Bar -->
+    <nav class="navbar">
+        <ul>
+            <li><a href="home.html" >Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="projects.html" class="active">Projects</a></li>
+            <li><a href="achievement.html">Achievement</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- PROJECT SECTION -->
+    <section class="projects-section">
+    <h1 class="projects-title">MY PROJECTS</h1>
+
+    <div class="slider-container">
+
+        <!-- LEFT ARROW -->
+        <button class="arrow left-arrow">&#10094;</button>
+
+        <!-- SLIDER -->
+        <div class="slider">
+
+            <!-- PROJECT 1 -->
+            <div class="slide active">
+                <img src="netpic.png" alt="Networking Project">
+
+                <div class="slide-content">
+                    <h2>Networking</h2>
+                    <p>
+                        Hierarcical network design demonstrates 
+                        the design and implementation of network 
+                        infrastructure using Packet Tracer. 
+                        It features a multi-building architecture 
+                        that utilizes routers and multi-layer 
+                        switches across diverse departments.
+                    </p>
+                </div>
+
+                <button class="toggle-btn">View Description</button>
+            </div>
+
+            <!-- PROJECT 2 -->
+            <div class="slide">
+                <img src="codepic.png" alt="Web Development Project">
+
+                <div class="slide-content">
+                    <h2>Web Development</h2>
+                    <p>
+                        This web development project showcases responsive layouts,
+                        interactive animations, and modern UI design using HTML,
+                        CSS, and JavaScript.
+                    </p>
+                </div>
+
+                <button class="toggle-btn">View Description</button>
+            </div>
+
+            <!-- PROJECT 3 -->
+            <div class="slide">
+                <img src="IMpic.png" alt="Information System Project">
+
+                <div class="slide-content">
+                    <h2>Information System</h2>
+                    <p>
+                        This information system project manages and organizes data
+                        efficiently with a user-friendly interface and database integration.
+                    </p>
+                </div>
+
+                <button class="toggle-btn">View Description</button>
+            </div>
+
+        </div>
+
+        <!-- RIGHT ARROW -->
+        <button class="arrow right-arrow">&#10095;</button>
+
+    </div>
+</section>
+
+<script src="script.js"></script>
+</body>
+</html>
